@@ -254,6 +254,11 @@ app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', '$rootSco
         text: "I can listen to this all night",
         imgUrl: "https://yt3.ggpht.com/-It_cgWS8qtI/AAAAAAAAAAI/AAAAAAAAAAA/89UXTEwlc00/s32-c-k-no/photo.jpg"
       },
+      {
+        name: "ARIANA",
+        text: "This jam is on my playlist",
+        imgUrl: "https://yt3.ggpht.com/-u_W-R7bGk1c/AAAAAAAAAAI/AAAAAAAAAAA/u6lamzb3BPc/s88-c-k-no/photo.jpg"
+      },
       { 
         name: "yunG",
         text: "best mv of 2015",
@@ -313,6 +318,11 @@ app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', '$rootSco
         name: "gregleef",
         text: "go hard or go home drake!",
         imgUrl: "https://yt3.ggpht.com/-3kiYk8iBP_g/AAAAAAAAAAI/AAAAAAAAAAA/dfv2ZSyyUbs/s48-c-k-no/photo.jpg"
+      },
+      {
+        name: "ARIANA",
+        text: "I know I can always get down with a Drake jam",
+        imgUrl: "https://yt3.ggpht.com/-u_W-R7bGk1c/AAAAAAAAAAI/AAAAAAAAAAA/u6lamzb3BPc/s88-c-k-no/photo.jpg"
       },
       { 
         name: "catty",
@@ -453,6 +463,65 @@ app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', '$rootSco
         name: "Kea",
         text: "Drake MVP",
         imgUrl: "https://yt3.ggpht.com/-It_cgWS8qtI/AAAAAAAAAAI/AAAAAAAAAAA/89UXTEwlc00/s32-c-k-no/photo.jpg"
+      },
+      { name: "vegas",
+        text: "if only m.mills can dance like this...",
+        imgUrl: "https://yt3.ggpht.com/-It_cgWS8qtI/AAAAAAAAAAI/AAAAAAAAAAA/89UXTEwlc00/s32-c-k-no/photo.jpg"
+      },
+      { 
+        name: "carlos",
+        text: "teach me how to drake!",
+        imgUrl: "https://yt3.ggpht.com/-7kGeJsrq3h0/AAAAAAAAAAI/AAAAAAAAAAA/xk5PPyhxHtA/s48-c-k-no/photo.jpg"
+      },
+      { 
+        name: "beautybb",
+        text: "Drake is the cutest",
+        imgUrl: "https://yt3.ggpht.com/-mgT_LzBtC6g/AAAAAAAAAAI/AAAAAAAAAAA/w2Kp9qyYgis/s48-c-k-no/photo.jpg"
+      },
+      { 
+        name: "steff",
+        text: "this sounds like another song",
+        imgUrl: "https://yt3.ggpht.com/-g87HOKfVw-E/AAAAAAAAAAI/AAAAAAAAAAA/vLxrWw15JfA/s48-c-k-no/photo.jpg"
+      },
+      { 
+        name: "bbyou",
+        text: "holla at my drake nation",
+        imgUrl: "https://yt3.ggpht.com/-RiOdvEubuQo/AAAAAAAAAAI/AAAAAAAAAAA/7XZgJOg-LzM/s48-c-k-no/photo.jpg"
+      },
+      { 
+        name: "minama",
+        text: "hands in the airrrrrrrr",
+        imgUrl: "https://yt3.ggpht.com/-ECGNqCk14Ss/AAAAAAAAAAI/AAAAAAAAAAA/1aVewEj16t8/s48-c-k-no/photo.jpg"
+      },
+      { 
+        name: "oxoxox",
+        text: "marry me drake",
+        imgUrl: "https://yt3.ggpht.com/-DKNAtCrMX1M/AAAAAAAAAAI/AAAAAAAAAAA/3Gw1ADEf9eQ/s48-c-k-no/photo.jpg"
+      },
+      { 
+        name: "popopo",
+        text: "marry ME!",
+        imgUrl: "https://yt3.ggpht.com/-RiOdvEubuQo/AAAAAAAAAAI/AAAAAAAAAAA/7XZgJOg-LzM/s48-c-k-no/photo.jpg"
+      },
+      { 
+        name: "tyHIL",
+        text: "please put this song on repeat",
+        imgUrl: "https://yt3.ggpht.com/-mgT_LzBtC6g/AAAAAAAAAAI/AAAAAAAAAAA/w2Kp9qyYgis/s48-c-k-no/photo.jpg"
+      },
+      { 
+        name: "dolfo",
+        text: "drake is aight",
+        imgUrl: "https://yt3.ggpht.com/-It_cgWS8qtI/AAAAAAAAAAI/AAAAAAAAAAA/89UXTEwlc00/s32-c-k-no/photo.jpg"
+      },
+      { 
+        name: "miranda",
+        text: "LOVE YOU DRAKE <3",
+        imgUrl: "https://yt3.ggpht.com/-7kGeJsrq3h0/AAAAAAAAAAI/AAAAAAAAAAA/xk5PPyhxHtA/s48-c-k-no/photo.jpg"
+      },
+      { 
+        name: "shinta",
+        text: ":):)",
+        imgUrl: "https://yt3.ggpht.com/-W1Nu5atas9Q/AAAAAAAAAAI/AAAAAAAAAAA/PrTn3zD_YWU/s48-c-k-no/photo.jpg"
       }
   ];
 
@@ -557,6 +626,11 @@ var arianaComments = [
   imgUrl: "https://yt3.ggpht.com/-u_W-R7bGk1c/AAAAAAAAAAI/AAAAAAAAAAA/u6lamzb3BPc/s88-c-k-no/photo.jpg"
 },
 { 
+  name: "rewob",
+  text: "You're the best!",
+  imgUrl: "https://yt3.ggpht.com/--4tDedWv-_Y/AAAAAAAAAAI/AAAAAAAAAAA/jscQgQTDAww/s48-c-k-no/photo.jpg"
+},
+{ 
   name: "grandefan",
   text: "Dang those lips tho",
   imgUrl: "https://yt3.ggpht.com/-7RZuzyPjHXE/AAAAAAAAAAI/AAAAAAAAAAA/HqZ8MraA7as/s48-c-k-no/photo.jpg"
@@ -613,7 +687,7 @@ var arianaComments = [
 },
 { 
   name: "rewob",
-  text: "She’s such an amazing vocalist",
+  text: "You're such an amazing vocalist",
   imgUrl: "https://yt3.ggpht.com/--4tDedWv-_Y/AAAAAAAAAAI/AAAAAAAAAAA/jscQgQTDAww/s48-c-k-no/photo.jpg"
 },
 {
@@ -638,12 +712,12 @@ var arianaComments = [
 },
 { 
   name: "licenseToKill",
-  text: "Ariana outshines all of her dancers",
+  text: "Ariana, you outshine all of your dancers",
   imgUrl: "https://yt3.ggpht.com/-uX126AMHNu4/AAAAAAAAAAI/AAAAAAAAAAA/NaNF6OVVeKA/s48-c-k-no/photo.jpg"
 },
 { 
   name: "angang",
-  text: "Her outfit reminds me of the Flintstones",
+  text: "Your outfit reminds me of the Flintstones",
   imgUrl: "https://yt3.ggpht.com/-9iMQjVDncAU/AAAAAAAAAAI/AAAAAAAAAAA/RVl4RsAenFI/s48-c-k-no/photo.jpg"
 },
 { 
@@ -653,7 +727,7 @@ var arianaComments = [
 },
 { 
   name: "arie",
-  text: "Her VOICE",
+  text: "your VOICE!!",
   imgUrl: "https://yt3.ggpht.com/-_ndPHIgkflg/AAAAAAAAAAI/AAAAAAAAAAA/LkIXLncBCcQ/s48-c-k-no/photo.jpg"
 },
 {
@@ -668,17 +742,17 @@ var arianaComments = [
 },
 { 
   name: "mimixoxo",
-  text: "Ariana She is my favourite singer",
+  text: "Ariana you're my favourite singer!",
   imgUrl: "https://yt3.ggpht.com/-3VMBk3H7vPU/AAAAAAAAAAI/AAAAAAAAAAA/6jGP66_CMLg/s48-c-k-no/photo.jpg"
 },
 { 
   name: "ddoe",
-  text: "Her dance choreo in this video is on point tho",
+  text: "Your dance choreo in this video is on point tho",
   imgUrl: "https://yt3.ggpht.com/-Qvcvaz3Je0U/AAAAAAAAAAI/AAAAAAAAAAA/aQbob1v7AfE/s48-c-k-no/photo.jpg"
 },
 { 
   name: "shellyx",
-  text: "The hair looks amazing on her",
+  text: "Your hair looks amazing",
   imgUrl: "https://yt3.ggpht.com/-9iMQjVDncAU/AAAAAAAAAAI/AAAAAAAAAAA/RVl4RsAenFI/s48-c-k-no/photo.jpg"
 },
 { 
@@ -688,12 +762,12 @@ var arianaComments = [
 },
 { 
   name: "nodemon",
-  text: "she looks like an elf",
+  text: "you looks like an elf",
   imgUrl: "https://yt3.ggpht.com/-4YtYnbyyGRw/AAAAAAAAAAI/AAAAAAAAAAA/2El6m9DJ2Tg/s48-c-k-no/photo.jpg"
 },
 { 
   name: "pielicious",
-  text: "This song just explains how much attention she wants..brat",
+  text: "This song just explains how much attention you want..brat",
   imgUrl: "https://yt3.ggpht.com/-I9WCadQePkM/AAAAAAAAAAI/AAAAAAAAAAA/-sb6-ne_dBY/s48-c-k-no/photo.jpg"
 },
 { 
@@ -708,22 +782,22 @@ var arianaComments = [
 },
 { 
   name: "marioluigi",
-  text: "why won't she change that damn hair style",
+  text: "why won't you change that damn hair style",
   imgUrl: "https://yt3.ggpht.com/-I9WCadQePkM/AAAAAAAAAAI/AAAAAAAAAAA/-sb6-ne_dBY/s48-c-k-no/photo.jpg"
 },
 { 
   name: "Nature",
-  text: "I think shes the only one of her generation with a good voice.",
+  text: "I think you're the only one of your generation with a good voice.",
   imgUrl: "https://yt3.ggpht.com/-YHajZcZbyD8/AAAAAAAAAAI/AAAAAAAAAAA/ZhcLWT9G_Co/s48-c-k-no/photo.jpg"
 },
 { 
   name: "beautifulSoul",
-  text: "A goddess she is",
+  text: "A goddess you are",
   imgUrl: "https://yt3.ggpht.com/-dAXuNdCtZ5U/AAAAAAAAAAI/AAAAAAAAAAA/LQyc0CtRHg8/s48-c-k-no/photo.jpg"
 },
 { 
   name: "pookie",
-  text: "She is SO PRETTY!",
+  text: "You are SO PRETTY!",
   imgUrl: "https://yt3.ggpht.com/-uX126AMHNu4/AAAAAAAAAAI/AAAAAAAAAAA/NaNF6OVVeKA/s48-c-k-no/photo.jpg"
 },
 { 
@@ -733,7 +807,7 @@ var arianaComments = [
 },
 { 
   name: "Xaxa",
-  text: "ariana can be my PROBLEM any day",
+  text: "ariana, you can be my PROBLEM any day",
   imgUrl: "https://yt3.ggpht.com/-fzYwLD3gLCo/AAAAAAAAAAI/AAAAAAAAAAA/OUs3QXxIiOw/s48-c-k-no/photo.jpg"
 },
 { 
@@ -753,7 +827,7 @@ var arianaComments = [
 },
 { 
   name: "sander_L",
-  text: "she's all grown up",
+  text: "you're all grown up",
   imgUrl: "https://yt3.ggpht.com/-YHajZcZbyD8/AAAAAAAAAAI/AAAAAAAAAAA/ZhcLWT9G_Co/s48-c-k-no/photo.jpg"
 },
 { 
@@ -761,10 +835,10 @@ var arianaComments = [
   text: "i love you!!",
   imgUrl: "https://yt3.ggpht.com/-4YtYnbyyGRw/AAAAAAAAAAI/AAAAAAAAAAA/2El6m9DJ2Tg/s48-c-k-no/photo.jpg"
 },
-{ 
-  name: "cyrilnu",
-  text: "moreeeeeeeee ariana",
-  imgUrl: "https://yt3.ggpht.com/-6UCqpWU_2x0/AAAAAAAAAAI/AAAAAAAAAAA/PADyjYQXiz0/s48-c-k-no/photo.jpg"
+{
+  name: "ARIANA",
+  text: "I had so much fun shooting this video!",
+  imgUrl: "https://yt3.ggpht.com/-u_W-R7bGk1c/AAAAAAAAAAI/AAAAAAAAAAA/u6lamzb3BPc/s88-c-k-no/photo.jpg"
 },
 { 
   name: "karyn",
@@ -773,7 +847,7 @@ var arianaComments = [
 },
 { 
   name: "kawa",
-  text: "i can see stars in her eyes",
+  text: "i can see stars in your eyes",
   imgUrl: "https://yt3.ggpht.com/-NJdKh2Q9vBY/AAAAAAAAAAI/AAAAAAAAAAA/XZ5ZUrTU4hI/s48-c-k-no/photo.jpg"
 },
 { 
@@ -783,17 +857,17 @@ var arianaComments = [
 },
 { 
   name: "monique",
-  text: "my dream is to be like her",
+  text: "my dream is to be like you",
   imgUrl: "https://yt3.ggpht.com/-4YtYnbyyGRw/AAAAAAAAAAI/AAAAAAAAAAA/2El6m9DJ2Tg/s48-c-k-no/photo.jpg"
 },
 { 
   name: "monique",
-  text: "shes my inspiration",
+  text: "you're my inspiration",
   imgUrl: "https://yt3.ggpht.com/-4YtYnbyyGRw/AAAAAAAAAAI/AAAAAAAAAAA/2El6m9DJ2Tg/s48-c-k-no/photo.jpg"
 },
 { 
   name: "nikki",
-  text: "she looks like shes from game of thrones!",
+  text: "you look like your from game of thrones!",
   imgUrl: "https://yt3.ggpht.com/-fzYwLD3gLCo/AAAAAAAAAAI/AAAAAAAAAAA/OUs3QXxIiOw/s48-c-k-no/photo.jpg"
 },
 { 
@@ -810,6 +884,11 @@ var arianaComments = [
   name: "michelleK",
   text: "I AM YOUR SUPERFAN",
   imgUrl: "https://yt3.ggpht.com/-9iMQjVDncAU/AAAAAAAAAAI/AAAAAAAAAAA/RVl4RsAenFI/s48-c-k-no/photo.jpg"
+},
+{
+  name: "ARIANA",
+  text: "Thanks everyone xoxo",
+  imgUrl: "https://yt3.ggpht.com/-u_W-R7bGk1c/AAAAAAAAAAI/AAAAAAAAAAA/u6lamzb3BPc/s88-c-k-no/photo.jpg"
 },
 { 
   name: "alex",
@@ -853,12 +932,12 @@ var arianaComments = [
 },
 { 
   name: "devon",
-  text: "if only i can sing like her",
+  text: "if only i can sing like you",
   imgUrl: "https://yt3.ggpht.com/-4YtYnbyyGRw/AAAAAAAAAAI/AAAAAAAAAAA/2El6m9DJ2Tg/s48-c-k-no/photo.jpg"
 },
 { 
   name: "cyrilnu",
-  text: "i went to her concert, it was amazing",
+  text: "i went to your concert, it was amazing",
   imgUrl: "https://yt3.ggpht.com/-6UCqpWU_2x0/AAAAAAAAAAI/AAAAAAAAAAA/PADyjYQXiz0/s48-c-k-no/photo.jpg"
 },
 { 
@@ -888,7 +967,7 @@ var arianaComments = [
 },
 { 
   name: "ddoe",
-  text: "she gets hotter every video",
+  text: "you get hotter every video",
   imgUrl: "https://yt3.ggpht.com/-Qvcvaz3Je0U/AAAAAAAAAAI/AAAAAAAAAAA/aQbob1v7AfE/s48-c-k-no/photo.jpg"
 },
 { 
