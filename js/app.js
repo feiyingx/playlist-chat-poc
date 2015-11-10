@@ -815,4 +815,99 @@ var arianaComments = [
   name: "alex",
   text: "cool video bro",
   imgUrl: "https://yt3.ggpht.com/-YLPDahgZ44w/AAAAAAAAAAI/AAAAAAAAAAA/rFgdYNaGkL8/s48-c-k-no/photo.jpg"
+},
+{ 
+  name: "pookie",
+  text: "BEST VIDEO EVER",
+  imgUrl: "https://yt3.ggpht.com/-uX126AMHNu4/AAAAAAAAAAI/AAAAAAAAAAA/NaNF6OVVeKA/s48-c-k-no/photo.jpg"
+},
+{ 
+  name: "girlsruletheworld",
+  text: "ariana you rule!!!!!!",
+  imgUrl: "https://yt3.ggpht.com/-9iMQjVDncAU/AAAAAAAAAAI/AAAAAAAAAAA/RVl4RsAenFI/s48-c-k-no/photo.jpg"
+},
+{ 
+  name: "Xaxa",
+  text: "+1",
+  imgUrl: "https://yt3.ggpht.com/-fzYwLD3gLCo/AAAAAAAAAAI/AAAAAAAAAAA/OUs3QXxIiOw/s48-c-k-no/photo.jpg"
+},
+{ 
+  name: "lvxxz",
+  text: "+2!",
+  imgUrl: "https://yt3.ggpht.com/-4YtYnbyyGRw/AAAAAAAAAAI/AAAAAAAAAAA/2El6m9DJ2Tg/s48-c-k-no/photo.jpg"
+},
+{ 
+  name: "emili",
+  text: "we love you!",
+  imgUrl: "https://yt3.ggpht.com/-YHajZcZbyD8/AAAAAAAAAAI/AAAAAAAAAAA/ZhcLWT9G_Co/s48-c-k-no/photo.jpg"
+},
+{ 
+  name: "zoeD",
+  text: "do your thang gurl",
+  imgUrl: "https://yt3.ggpht.com/-dAXuNdCtZ5U/AAAAAAAAAAI/AAAAAAAAAAA/LQyc0CtRHg8/s48-c-k-no/photo.jpg"
+},
+{ 
+  name: "sander_L",
+  text: "HOT HOT HOT",
+  imgUrl: "https://yt3.ggpht.com/-YHajZcZbyD8/AAAAAAAAAAI/AAAAAAAAAAA/ZhcLWT9G_Co/s48-c-k-no/photo.jpg"
+},
+{ 
+  name: "devon",
+  text: "if only i can sing like her",
+  imgUrl: "https://yt3.ggpht.com/-4YtYnbyyGRw/AAAAAAAAAAI/AAAAAAAAAAA/2El6m9DJ2Tg/s48-c-k-no/photo.jpg"
+},
+{ 
+  name: "cyrilnu",
+  text: "i went to her concert, it was amazing",
+  imgUrl: "https://yt3.ggpht.com/-6UCqpWU_2x0/AAAAAAAAAAI/AAAAAAAAAAA/PADyjYQXiz0/s48-c-k-no/photo.jpg"
+},
+{ 
+  name: "karyn",
+  text: "you're so awesome",
+  imgUrl: "https://yt3.ggpht.com/-fzYwLD3gLCo/AAAAAAAAAAI/AAAAAAAAAAA/OUs3QXxIiOw/s48-c-k-no/photo.jpg"
+},
+{ 
+  name: "kawa",
+  text: "raise your hand if you love ariana!",
+  imgUrl: "https://yt3.ggpht.com/-NJdKh2Q9vBY/AAAAAAAAAAI/AAAAAAAAAAA/XZ5ZUrTU4hI/s48-c-k-no/photo.jpg"
+},
+{ 
+  name: "SQILHE",
+  text: "woot woot",
+  imgUrl: "https://yt3.ggpht.com/-9iMQjVDncAU/AAAAAAAAAAI/AAAAAAAAAAA/RVl4RsAenFI/s48-c-k-no/photo.jpg"
+},
+{ 
+  name: "monique",
+  text: "lolol",
+  imgUrl: "https://yt3.ggpht.com/-4YtYnbyyGRw/AAAAAAAAAAI/AAAAAAAAAAA/2El6m9DJ2Tg/s48-c-k-no/photo.jpg"
+},
+{ 
+  name: "monique",
+  text: "ariana4life",
+  imgUrl: "https://yt3.ggpht.com/-4YtYnbyyGRw/AAAAAAAAAAI/AAAAAAAAAAA/2El6m9DJ2Tg/s48-c-k-no/photo.jpg"
+},
+{ 
+  name: "ddoe",
+  text: "she gets hotter every video",
+  imgUrl: "https://yt3.ggpht.com/-Qvcvaz3Je0U/AAAAAAAAAAI/AAAAAAAAAAA/aQbob1v7AfE/s48-c-k-no/photo.jpg"
+},
+{ 
+  name: "shellyx",
+  text: "been playing on repeat...",
+  imgUrl: "https://yt3.ggpht.com/-9iMQjVDncAU/AAAAAAAAAAI/AAAAAAAAAAA/RVl4RsAenFI/s48-c-k-no/photo.jpg"
+},
+{ 
+  name: "drewness",
+  text: "same here, listening to it all night",
+  imgUrl: "https://yt3.ggpht.com/-I9WCadQePkM/AAAAAAAAAAI/AAAAAAAAAAA/-sb6-ne_dBY/s48-c-k-no/photo.jpg"
+},
+{ 
+  name: "nodemon",
+  text: "music never stops",
+  imgUrl: "https://yt3.ggpht.com/-4YtYnbyyGRw/AAAAAAAAAAI/AAAAAAAAAAA/2El6m9DJ2Tg/s48-c-k-no/photo.jpg"
+},
+{ 
+  name: "pielicious",
+  text: "#1 HIT",
+  imgUrl: "https://yt3.ggpht.com/-I9WCadQePkM/AAAAAAAAAAI/AAAAAAAAAAA/-sb6-ne_dBY/s48-c-k-no/photo.jpg"
 }];
