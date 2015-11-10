@@ -37,52 +37,52 @@ app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', '$rootSco
       { 
         name: "jeamanda",
         text: "Um yes water",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-3VMBk3H7vPU/AAAAAAAAAAI/AAAAAAAAAAA/6jGP66_CMLg/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "Deplex101",
         text: "That girl!",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-3kiYk8iBP_g/AAAAAAAAAAI/AAAAAAAAAAA/dfv2ZSyyUbs/s48-c-k-no/photo.jpg"
       },
       { 
         name: "Deplex101",
         text: "Smooookingggggggggg",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-ECGNqCk14Ss/AAAAAAAAAAI/AAAAAAAAAAA/1aVewEj16t8/s48-c-k-no/photo.jpg"
       },
       { 
         name: "derke",
         text: "my kind of customer service department",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-7kGeJsrq3h0/AAAAAAAAAAI/AAAAAAAAAAA/xk5PPyhxHtA/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "AzharB",
         text: "Walk it out",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-zi__E7ubqiQ/AAAAAAAAAAI/AAAAAAAAAAA/fHC0DI0hOow/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "3Haws",
         text: "hahah Drake dancing",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-3VMBk3H7vPU/AAAAAAAAAAI/AAAAAAAAAAA/6jGP66_CMLg/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "Zillcatyr",
         text: "So excited!",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-RiOdvEubuQo/AAAAAAAAAAI/AAAAAAAAAAA/7XZgJOg-LzM/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "s0ak",
         text: "LOVE THIS SONG",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-mgT_LzBtC6g/AAAAAAAAAAI/AAAAAAAAAAA/w2Kp9qyYgis/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "CellJr",
         text: "HOTLINGBLINGGGGGGG",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-ECGNqCk14Ss/AAAAAAAAAAI/AAAAAAAAAAA/1aVewEj16t8/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "ronnieMc",
         text: "Drake be dancing",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-3kiYk8iBP_g/AAAAAAAAAAI/AAAAAAAAAAA/dfv2ZSyyUbs/s48-c-k-no/photo.jpg"
       },
       {
         name: "ARIANA",
@@ -92,77 +92,77 @@ app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', '$rootSco
      ,{ 
         name: "HooDini",
         text: "What is he doing",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-3VMBk3H7vPU/AAAAAAAAAAI/AAAAAAAAAAA/6jGP66_CMLg/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "garza",
         text: "Can't stand this awkward dancing fool that why I DISSED HIM.",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-7kGeJsrq3h0/AAAAAAAAAAI/AAAAAAAAAAA/xk5PPyhxHtA/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "samir",
         text: "I love this elevator music, it's got such a sick beat over it.",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-3kiYk8iBP_g/AAAAAAAAAAI/AAAAAAAAAAA/dfv2ZSyyUbs/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "the_deep_bassist",
         text: "Even if Drake was my dad i would still be embarrassed to bring him to school dances",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-RiOdvEubuQo/AAAAAAAAAAI/AAAAAAAAAAA/7XZgJOg-LzM/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "match_stick",
         text: "me too",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-3VMBk3H7vPU/AAAAAAAAAAI/AAAAAAAAAAA/6jGP66_CMLg/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "Sahni",
         text: "music classes he would be the bomb",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-ECGNqCk14Ss/AAAAAAAAAAI/AAAAAAAAAAA/1aVewEj16t8/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "Augustin",
         text: "who brings there dad to school dances?",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-7kGeJsrq3h0/AAAAAAAAAAI/AAAAAAAAAAA/xk5PPyhxHtA/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "KyleWright",
         text: "LMFAO",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-3kiYk8iBP_g/AAAAAAAAAAI/AAAAAAAAAAA/dfv2ZSyyUbs/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "Rondadore",
         text: "Drake is that type of guy that actually does the class's reading assignment homework",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-3VMBk3H7vPU/AAAAAAAAAAI/AAAAAAAAAAA/6jGP66_CMLg/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "NoahSayles",
         text: "….",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-RiOdvEubuQo/AAAAAAAAAAI/AAAAAAAAAAA/7XZgJOg-LzM/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "KyleWright",
         text: "Drake... Making it okay for white guys to dance to his songs since 2015.",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-zi__E7ubqiQ/AAAAAAAAAAI/AAAAAAAAAAA/fHC0DI0hOow/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "audiopablo",
         text: "first time seeing the actual video after all the memes! lol cant take it seriously now",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-3VMBk3H7vPU/AAAAAAAAAAI/AAAAAAAAAAA/6jGP66_CMLg/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "keepit",
         text: "this shit issss ffffiire",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-7kGeJsrq3h0/AAAAAAAAAAI/AAAAAAAAAAA/xk5PPyhxHtA/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "jermGreen",
         text: "Somehow He reminds me of Ross from friends",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-3kiYk8iBP_g/AAAAAAAAAAI/AAAAAAAAAAA/dfv2ZSyyUbs/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "phile",
         text: "his dancing and this whole video is pissing me off and i dont even know why",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-mgT_LzBtC6g/AAAAAAAAAAI/AAAAAAAAAAA/w2Kp9qyYgis/s48-c-k-no/photo.jpg"
       },
       {
         name: "ARIANA",
@@ -172,37 +172,37 @@ app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', '$rootSco
      ,{ 
         name: "blingBLING",
         text: "Carlton called he wants his dance moves back",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-7kGeJsrq3h0/AAAAAAAAAAI/AAAAAAAAAAA/xk5PPyhxHtA/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "zori",
         text: "Best comment ever.",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-It_cgWS8qtI/AAAAAAAAAAI/AAAAAAAAAAA/89UXTEwlc00/s32-c-k-no/photo.jpg"
       }
      ,{ 
         name: "msproof",
         text: "Hahahaha",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-RiOdvEubuQo/AAAAAAAAAAI/AAAAAAAAAAA/7XZgJOg-LzM/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "sammystripes",
         text: "this song hypnotizes me",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-3VMBk3H7vPU/AAAAAAAAAAI/AAAAAAAAAAA/6jGP66_CMLg/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "aiman",
         text: "Drake my sister said that your dance moves suck",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-3kiYk8iBP_g/AAAAAAAAAAI/AAAAAAAAAAA/dfv2ZSyyUbs/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "mariobro",
         text: "Drakes king🙏",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-mgT_LzBtC6g/AAAAAAAAAAI/AAAAAAAAAAA/w2Kp9qyYgis/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "RazaK",
         text: "he's dancing bachata lol",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-7kGeJsrq3h0/AAAAAAAAAAI/AAAAAAAAAAA/xk5PPyhxHtA/s48-c-k-no/photo.jpg"
       },
       {
         name: "ARIANA",
@@ -212,247 +212,247 @@ app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', '$rootSco
      ,{ 
         name: "rebJulia",
         text: "Does anybody actually listen to the lyrics",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-zi__E7ubqiQ/AAAAAAAAAAI/AAAAAAAAAAA/fHC0DI0hOow/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "miller_time",
         text: "Your dance is fucking perfect dude:D",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-mgT_LzBtC6g/AAAAAAAAAAI/AAAAAAAAAAA/w2Kp9qyYgis/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "bherman",
         text: "I think hes a part time salsa dancer",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-g87HOKfVw-E/AAAAAAAAAAI/AAAAAAAAAAA/vLxrWw15JfA/s48-c-k-no/photo.jpg"
       }
      ,{ 
         name: "wapachee",
         text: "mmhmmm",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-It_cgWS8qtI/AAAAAAAAAAI/AAAAAAAAAAA/89UXTEwlc00/s32-c-k-no/photo.jpg"
       }
      ,{ 
         name: "gooooooooo",
         text: "Get it Drake",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-7kGeJsrq3h0/AAAAAAAAAAI/AAAAAAAAAAA/xk5PPyhxHtA/s48-c-k-no/photo.jpg"
       },
       { 
         name: "Genesis",
         text: "take that dance to da club",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-3kiYk8iBP_g/AAAAAAAAAAI/AAAAAAAAAAA/dfv2ZSyyUbs/s48-c-k-no/photo.jpg"
       },
       { 
         name: "Benitez",
         text: "i'm in love WITH DIS SONG",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-RiOdvEubuQo/AAAAAAAAAAI/AAAAAAAAAAA/7XZgJOg-LzM/s48-c-k-no/photo.jpg"
       },
       { 
         name: "droidV",
         text: "STILL DA BEST",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-7kGeJsrq3h0/AAAAAAAAAAI/AAAAAAAAAAA/xk5PPyhxHtA/s48-c-k-no/photo.jpg"
       },
       { 
         name: "simba",
         text: "I can listen to this all night",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-It_cgWS8qtI/AAAAAAAAAAI/AAAAAAAAAAA/89UXTEwlc00/s32-c-k-no/photo.jpg"
       },
       { 
         name: "yunG",
         text: "best mv of 2015",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-g87HOKfVw-E/AAAAAAAAAAI/AAAAAAAAAAA/vLxrWw15JfA/s48-c-k-no/photo.jpg"
       },
       { 
         name: "nessa",
         text: "LOL",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-ECGNqCk14Ss/AAAAAAAAAAI/AAAAAAAAAAA/1aVewEj16t8/s48-c-k-no/photo.jpg"
       },
       { 
         name: "rivera",
         text: "hahahaha",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-3kiYk8iBP_g/AAAAAAAAAAI/AAAAAAAAAAA/dfv2ZSyyUbs/s48-c-k-no/photo.jpg"
       },
       { 
         name: "mirtha",
         text: "I DANCE JUST LIKE HIM",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-RiOdvEubuQo/AAAAAAAAAAI/AAAAAAAAAAA/7XZgJOg-LzM/s48-c-k-no/photo.jpg"
       },
       { 
         name: "Villegas",
         text: "dancing like a real man",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-It_cgWS8qtI/AAAAAAAAAAI/AAAAAAAAAAA/89UXTEwlc00/s32-c-k-no/photo.jpg"
       },
       { 
         name: "carlos",
         text: "Reminds me of my girlfriend",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-7kGeJsrq3h0/AAAAAAAAAAI/AAAAAAAAAAA/xk5PPyhxHtA/s48-c-k-no/photo.jpg"
       },
       { 
         name: "beautybb",
         text: "someone call me on my cellphone",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-mgT_LzBtC6g/AAAAAAAAAAI/AAAAAAAAAAA/w2Kp9qyYgis/s48-c-k-no/photo.jpg"
       },
       { 
         name: "steff",
         text: "sickkkkk beat",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-g87HOKfVw-E/AAAAAAAAAAI/AAAAAAAAAAA/vLxrWw15JfA/s48-c-k-no/photo.jpg"
       },
       { 
         name: "bbyou",
         text: "DRAKE DRAKE DRAKE",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-RiOdvEubuQo/AAAAAAAAAAI/AAAAAAAAAAA/7XZgJOg-LzM/s48-c-k-no/photo.jpg"
       },
       { 
         name: "minama",
         text: "im your biggest fan",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-ECGNqCk14Ss/AAAAAAAAAAI/AAAAAAAAAAA/1aVewEj16t8/s48-c-k-no/photo.jpg"
       },
       { 
         name: "kimmy",
         text: "ME TOO",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-zi__E7ubqiQ/AAAAAAAAAAI/AAAAAAAAAAA/fHC0DI0hOow/s48-c-k-no/photo.jpg"
       },
       { 
         name: "gregleef",
         text: "go hard or go home drake!",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-3kiYk8iBP_g/AAAAAAAAAAI/AAAAAAAAAAA/dfv2ZSyyUbs/s48-c-k-no/photo.jpg"
       },
       { 
         name: "catty",
         text: "keep it up please",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-mgT_LzBtC6g/AAAAAAAAAAI/AAAAAAAAAAA/w2Kp9qyYgis/s48-c-k-no/photo.jpg"
       },
       { 
         name: "sunny",
         text: "I LOVE YOU DRAKE",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-RiOdvEubuQo/AAAAAAAAAAI/AAAAAAAAAAA/7XZgJOg-LzM/s48-c-k-no/photo.jpg"
       },
       { 
         name: "AMERI",
         text: "this dance is UH MAY ZING",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-It_cgWS8qtI/AAAAAAAAAAI/AAAAAAAAAAA/89UXTEwlc00/s32-c-k-no/photo.jpg"
       },
       { 
         name: "cane",
         text: "lyrics are off the hook",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-g87HOKfVw-E/AAAAAAAAAAI/AAAAAAAAAAA/vLxrWw15JfA/s48-c-k-no/photo.jpg"
       },
       { 
         name: "candy",
         text: "i know right",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-zi__E7ubqiQ/AAAAAAAAAAI/AAAAAAAAAAA/fHC0DI0hOow/s48-c-k-no/photo.jpg"
       },
       { 
         name: "lupis",
         text: "what's up with the dance moves",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-3kiYk8iBP_g/AAAAAAAAAAI/AAAAAAAAAAA/dfv2ZSyyUbs/s48-c-k-no/photo.jpg"
       },
       { 
         name: "colleen",
         text: "love this mv",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-RiOdvEubuQo/AAAAAAAAAAI/AAAAAAAAAAA/7XZgJOg-LzM/s48-c-k-no/photo.jpg"
       },
       { 
         name: "meryl",
         text: "is drake trolling us??",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-It_cgWS8qtI/AAAAAAAAAAI/AAAAAAAAAAA/89UXTEwlc00/s32-c-k-no/photo.jpg"
       },
       { 
         name: "xxLOVExx",
         text: "I can't stop watching this!!!!",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-j3-P1RNabvQ/AAAAAAAAAAI/AAAAAAAAAAA/NPIg3eKuqMA/s48-c-k-no/photo.jpg"
       },
       { 
         name: "kisses",
         text: "me too!",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-zi__E7ubqiQ/AAAAAAAAAAI/AAAAAAAAAAA/fHC0DI0hOow/s48-c-k-no/photo.jpg"
       },
       { 
         name: "oxoxox",
         text: "me three...",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-DKNAtCrMX1M/AAAAAAAAAAI/AAAAAAAAAAA/3Gw1ADEf9eQ/s48-c-k-no/photo.jpg"
       },
       { 
         name: "popopo",
         text: "He is so hot",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-RiOdvEubuQo/AAAAAAAAAAI/AAAAAAAAAAA/7XZgJOg-LzM/s48-c-k-no/photo.jpg"
       },
       { 
         name: "tyHIL",
         text: "60 million views in 2 weeks!!!!",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-mgT_LzBtC6g/AAAAAAAAAAI/AAAAAAAAAAA/w2Kp9qyYgis/s48-c-k-no/photo.jpg"
       },
       { 
         name: "asdfa",
         text: "SENSATIONAL",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-DppO3i0VU9A/AAAAAAAAAAI/AAAAAAAAAAA/SWVhTVsSmk8/s48-c-k-no/photo.jpg"
       },
       { 
         name: "dolfo",
         text: "call me now",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-It_cgWS8qtI/AAAAAAAAAAI/AAAAAAAAAAA/89UXTEwlc00/s32-c-k-no/photo.jpg"
       },
       { 
         name: "miranda",
         text: "best song",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-7kGeJsrq3h0/AAAAAAAAAAI/AAAAAAAAAAA/xk5PPyhxHtA/s48-c-k-no/photo.jpg"
       },
       { 
         name: "yyx",
         text: "+1",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-g87HOKfVw-E/AAAAAAAAAAI/AAAAAAAAAAA/vLxrWw15JfA/s48-c-k-no/photo.jpg"
       },
       { 
         name: "shinta",
         text: "I love this song",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-W1Nu5atas9Q/AAAAAAAAAAI/AAAAAAAAAAA/PrTn3zD_YWU/s48-c-k-no/photo.jpg"
       },
       { 
         name: "chaogod",
         text: "This is too funny LOL",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-3kiYk8iBP_g/AAAAAAAAAAI/AAAAAAAAAAA/dfv2ZSyyUbs/s48-c-k-no/photo.jpg"
       },
       { 
         name: "powpowpow",
         text: "best dance of the year",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-mgT_LzBtC6g/AAAAAAAAAAI/AAAAAAAAAAA/w2Kp9qyYgis/s48-c-k-no/photo.jpg"
       },
       { 
         name: "ekard",
         text: "omg drake!",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-RiOdvEubuQo/AAAAAAAAAAI/AAAAAAAAAAA/7XZgJOg-LzM/s48-c-k-no/photo.jpg"
       },
       { 
         name: "goDrake",
         text: "haters gon hate",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-It_cgWS8qtI/AAAAAAAAAAI/AAAAAAAAAAA/89UXTEwlc00/s32-c-k-no/photo.jpg"
       },
       { 
         name: "danceMaster",
         text: "can someone teach me dis dance",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-g87HOKfVw-E/AAAAAAAAAAI/AAAAAAAAAAA/vLxrWw15JfA/s48-c-k-no/photo.jpg"
       },
       { 
         name: "lollers",
         text: "HAHAHAHA",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-7kGeJsrq3h0/AAAAAAAAAAI/AAAAAAAAAAA/xk5PPyhxHtA/s48-c-k-no/photo.jpg"
       },
       { 
         name: "mickyD",
         text: "I'm loving it",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-mgT_LzBtC6g/AAAAAAAAAAI/AAAAAAAAAAA/w2Kp9qyYgis/s48-c-k-no/photo.jpg"
       },
       { 
         name: "kacak",
         text: "*Ba ba ba ba ba",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-3kiYk8iBP_g/AAAAAAAAAAI/AAAAAAAAAAA/dfv2ZSyyUbs/s48-c-k-no/photo.jpg"
       },
       { 
         name: "gabby",
         text: "Drake please read my comments, I'm your biggest fan!",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-RiOdvEubuQo/AAAAAAAAAAI/AAAAAAAAAAA/7XZgJOg-LzM/s48-c-k-no/photo.jpg"
       },
       { 
         name: "Kea",
         text: "Drake MVP",
-        imgUrl: ""
+        imgUrl: "https://yt3.ggpht.com/-It_cgWS8qtI/AAAAAAAAAAI/AAAAAAAAAAA/89UXTEwlc00/s32-c-k-no/photo.jpg"
       }
   ];
 
@@ -559,62 +559,62 @@ var arianaComments = [
 { 
   name: "grandefan",
   text: "Dang those lips tho",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-7RZuzyPjHXE/AAAAAAAAAAI/AAAAAAAAAAA/HqZ8MraA7as/s48-c-k-no/photo.jpg"
 },
 { 
   name: "gruntfile",
   text: "oooh promotion of the phone",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-8BktrAxfsJw/AAAAAAAAAAI/AAAAAAAAAAA/WdZibrBm59I/s48-c-k-no/photo.jpg"
 },
 { 
   name: "videogular",
   text: "Sing it girl",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-_ndPHIgkflg/AAAAAAAAAAI/AAAAAAAAAAA/LkIXLncBCcQ/s48-c-k-no/photo.jpg"
 },
 { 
   name: "Bower",
   text: "I like this song",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-4YtYnbyyGRw/AAAAAAAAAAI/AAAAAAAAAAA/2El6m9DJ2Tg/s48-c-k-no/photo.jpg"
 },
 { 
   name: "Giti",
   text: "Ariana looks great",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/--4tDedWv-_Y/AAAAAAAAAAI/AAAAAAAAAAA/jscQgQTDAww/s48-c-k-no/photo.jpg"
 },
 { 
   name: "nGnore",
   text: "WTF is up with her hair",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-7RZuzyPjHXE/AAAAAAAAAAI/AAAAAAAAAAA/HqZ8MraA7as/s48-c-k-no/photo.jpg"
 },
 { 
   name: "maxDe",
   text: "I like the circles",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-3VMBk3H7vPU/AAAAAAAAAAI/AAAAAAAAAAA/6jGP66_CMLg/s48-c-k-no/photo.jpg"
 },
 { 
   name: "pckg",
   text: "I’m definitely focused",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-_ndPHIgkflg/AAAAAAAAAAI/AAAAAAAAAAA/LkIXLncBCcQ/s48-c-k-no/photo.jpg"
 },
 { 
   name: "vgPlay",
   text: "This is what Ariana will look like when she gets old",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-tJHSvVrazpw/AAAAAAAAAAI/AAAAAAAAAAA/rJMR5LuWRXg/s48-c-k-no/photo.jpg"
 },
 { 
   name: "haNore",
   text: "hahahaha",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-4YtYnbyyGRw/AAAAAAAAAAI/AAAAAAAAAAA/2El6m9DJ2Tg/s48-c-k-no/photo.jpg"
 },
 { 
   name: "indexNPM",
   text: "FLAWLESS",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-Qvcvaz3Je0U/AAAAAAAAAAI/AAAAAAAAAAA/aQbob1v7AfE/s48-c-k-no/photo.jpg"
 },
 { 
   name: "rewob",
   text: "She’s such an amazing vocalist",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/--4tDedWv-_Y/AAAAAAAAAAI/AAAAAAAAAAA/jscQgQTDAww/s48-c-k-no/photo.jpg"
 },
 {
   name: "ARIANA",
@@ -624,37 +624,37 @@ var arianaComments = [
 { 
   name: "raceCAR",
   text: "Ariana don’t let fame change you",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-_ndPHIgkflg/AAAAAAAAAAI/AAAAAAAAAAA/LkIXLncBCcQ/s48-c-k-no/photo.jpg"
 },
 { 
   name: "cutieX",
   text: "I am so obsessed with this song it is stuck in my head",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-4YtYnbyyGRw/AAAAAAAAAAI/AAAAAAAAAAA/2El6m9DJ2Tg/s48-c-k-no/photo.jpg"
 },
 { 
   name: "over_you",
   text: "I’m digging this space theme",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-NJdKh2Q9vBY/AAAAAAAAAAI/AAAAAAAAAAA/XZ5ZUrTU4hI/s48-c-k-no/photo.jpg"
 },
 { 
   name: "licenseToKill",
   text: "Ariana outshines all of her dancers",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-uX126AMHNu4/AAAAAAAAAAI/AAAAAAAAAAA/NaNF6OVVeKA/s48-c-k-no/photo.jpg"
 },
 { 
   name: "angang",
   text: "Her outfit reminds me of the Flintstones",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-9iMQjVDncAU/AAAAAAAAAAI/AAAAAAAAAAA/RVl4RsAenFI/s48-c-k-no/photo.jpg"
 },
 { 
   name: "the_rock",
   text: "Ariana can’t dance",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-3VMBk3H7vPU/AAAAAAAAAAI/AAAAAAAAAAA/6jGP66_CMLg/s48-c-k-no/photo.jpg"
 },
 { 
   name: "arie",
   text: "Her VOICE",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-_ndPHIgkflg/AAAAAAAAAAI/AAAAAAAAAAA/LkIXLncBCcQ/s48-c-k-no/photo.jpg"
 },
 {
   name: "ARIANA",
@@ -664,42 +664,42 @@ var arianaComments = [
 { 
   name: "myxchell",
   text: "This is an elaborate Samsung commercial.",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-6UCqpWU_2x0/AAAAAAAAAAI/AAAAAAAAAAA/PADyjYQXiz0/s48-c-k-no/photo.jpg"
 },
 { 
   name: "mimixoxo",
   text: "Ariana She is my favourite singer",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-3VMBk3H7vPU/AAAAAAAAAAI/AAAAAAAAAAA/6jGP66_CMLg/s48-c-k-no/photo.jpg"
 },
 { 
   name: "ddoe",
   text: "Her dance choreo in this video is on point tho",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-Qvcvaz3Je0U/AAAAAAAAAAI/AAAAAAAAAAA/aQbob1v7AfE/s48-c-k-no/photo.jpg"
 },
 { 
   name: "shellyx",
   text: "The hair looks amazing on her",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-9iMQjVDncAU/AAAAAAAAAAI/AAAAAAAAAAA/RVl4RsAenFI/s48-c-k-no/photo.jpg"
 },
 { 
   name: "drewness",
   text: "i'm sorry but when I listen it I always think of Problem",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-I9WCadQePkM/AAAAAAAAAAI/AAAAAAAAAAA/-sb6-ne_dBY/s48-c-k-no/photo.jpg"
 },
 { 
   name: "nodemon",
   text: "she looks like an elf",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-4YtYnbyyGRw/AAAAAAAAAAI/AAAAAAAAAAA/2El6m9DJ2Tg/s48-c-k-no/photo.jpg"
 },
 { 
   name: "pielicious",
   text: "This song just explains how much attention she wants..brat",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-I9WCadQePkM/AAAAAAAAAAI/AAAAAAAAAAA/-sb6-ne_dBY/s48-c-k-no/photo.jpg"
 },
 { 
   name: "baller88",
   text: "Wooooooooooooow Ariana grande",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-uX126AMHNu4/AAAAAAAAAAI/AAAAAAAAAAA/NaNF6OVVeKA/s48-c-k-no/photo.jpg"
 },
 {
   name: "ARIANA",
@@ -709,110 +709,110 @@ var arianaComments = [
 { 
   name: "marioluigi",
   text: "why won't she change that damn hair style",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-I9WCadQePkM/AAAAAAAAAAI/AAAAAAAAAAA/-sb6-ne_dBY/s48-c-k-no/photo.jpg"
 },
 { 
   name: "Nature",
   text: "I think shes the only one of her generation with a good voice.",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-YHajZcZbyD8/AAAAAAAAAAI/AAAAAAAAAAA/ZhcLWT9G_Co/s48-c-k-no/photo.jpg"
 },
 { 
   name: "beautifulSoul",
   text: "A goddess she is",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-dAXuNdCtZ5U/AAAAAAAAAAI/AAAAAAAAAAA/LQyc0CtRHg8/s48-c-k-no/photo.jpg"
 },
 { 
   name: "pookie",
   text: "She is SO PRETTY!",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-uX126AMHNu4/AAAAAAAAAAI/AAAAAAAAAAA/NaNF6OVVeKA/s48-c-k-no/photo.jpg"
 },
 { 
   name: "girlsruletheworld",
   text: "goalss. stuck in my head every day. :D",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-9iMQjVDncAU/AAAAAAAAAAI/AAAAAAAAAAA/RVl4RsAenFI/s48-c-k-no/photo.jpg"
 },
 { 
   name: "Xaxa",
   text: "ariana can be my PROBLEM any day",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-fzYwLD3gLCo/AAAAAAAAAAI/AAAAAAAAAAA/OUs3QXxIiOw/s48-c-k-no/photo.jpg"
 },
 { 
   name: "lvxxz",
   text: "what phone is that?",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-4YtYnbyyGRw/AAAAAAAAAAI/AAAAAAAAAAA/2El6m9DJ2Tg/s48-c-k-no/photo.jpg"
 },
 { 
   name: "emili",
   text: "DAT DRESS",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-YHajZcZbyD8/AAAAAAAAAAI/AAAAAAAAAAA/ZhcLWT9G_Co/s48-c-k-no/photo.jpg"
 },
 { 
   name: "zoeD",
   text: "you go girl!",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-dAXuNdCtZ5U/AAAAAAAAAAI/AAAAAAAAAAA/LQyc0CtRHg8/s48-c-k-no/photo.jpg"
 },
 { 
   name: "sander_L",
   text: "she's all grown up",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-YHajZcZbyD8/AAAAAAAAAAI/AAAAAAAAAAA/ZhcLWT9G_Co/s48-c-k-no/photo.jpg"
 },
 { 
   name: "devon",
   text: "i love you!!",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-4YtYnbyyGRw/AAAAAAAAAAI/AAAAAAAAAAA/2El6m9DJ2Tg/s48-c-k-no/photo.jpg"
 },
 { 
   name: "cyrilnu",
   text: "moreeeeeeeee ariana",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-6UCqpWU_2x0/AAAAAAAAAAI/AAAAAAAAAAA/PADyjYQXiz0/s48-c-k-no/photo.jpg"
 },
 { 
   name: "karyn",
   text: "totally FOCUSING",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-fzYwLD3gLCo/AAAAAAAAAAI/AAAAAAAAAAA/OUs3QXxIiOw/s48-c-k-no/photo.jpg"
 },
 { 
   name: "kawa",
   text: "i can see stars in her eyes",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-NJdKh2Q9vBY/AAAAAAAAAAI/AAAAAAAAAAA/XZ5ZUrTU4hI/s48-c-k-no/photo.jpg"
 },
 { 
   name: "SQILHE",
   text: "i cant get this song out of my head",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-9iMQjVDncAU/AAAAAAAAAAI/AAAAAAAAAAA/RVl4RsAenFI/s48-c-k-no/photo.jpg"
 },
 { 
   name: "monique",
   text: "my dream is to be like her",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-4YtYnbyyGRw/AAAAAAAAAAI/AAAAAAAAAAA/2El6m9DJ2Tg/s48-c-k-no/photo.jpg"
 },
 { 
   name: "monique",
   text: "shes my inspiration",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-4YtYnbyyGRw/AAAAAAAAAAI/AAAAAAAAAAA/2El6m9DJ2Tg/s48-c-k-no/photo.jpg"
 },
 { 
   name: "nikki",
   text: "she looks like shes from game of thrones!",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-fzYwLD3gLCo/AAAAAAAAAAI/AAAAAAAAAAA/OUs3QXxIiOw/s48-c-k-no/photo.jpg"
 },
 { 
   name: "pollo",
   text: "such an AMAZING voice",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-NJdKh2Q9vBY/AAAAAAAAAAI/AAAAAAAAAAA/XZ5ZUrTU4hI/s48-c-k-no/photo.jpg"
 },
 { 
   name: "CUE",
   text: "YES YES YES!",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-6UCqpWU_2x0/AAAAAAAAAAI/AAAAAAAAAAA/PADyjYQXiz0/s48-c-k-no/photo.jpg"
 },
 { 
   name: "michelleK",
   text: "I AM YOUR SUPERFAN",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-9iMQjVDncAU/AAAAAAAAAAI/AAAAAAAAAAA/RVl4RsAenFI/s48-c-k-no/photo.jpg"
 },
 { 
   name: "alex",
   text: "cool video bro",
-  imgUrl: ""
+  imgUrl: "https://yt3.ggpht.com/-YLPDahgZ44w/AAAAAAAAAAI/AAAAAAAAAAA/rFgdYNaGkL8/s48-c-k-no/photo.jpg"
 }];
