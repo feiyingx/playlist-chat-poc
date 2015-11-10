@@ -466,7 +466,7 @@ app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', '$rootSco
       },
       { name: "vegas",
         text: "if only m.mills can dance like this...",
-        imgUrl: "https://yt3.ggpht.com/-It_cgWS8qtI/AAAAAAAAAAI/AAAAAAAAAAA/89UXTEwlc00/s32-c-k-no/photo.jpg"
+        imgUrl: "https://yt3.ggpht.com/-ECGNqCk14Ss/AAAAAAAAAAI/AAAAAAAAAAA/1aVewEj16t8/s48-c-k-no/photo.jpg"
       },
       { 
         name: "carlos",
@@ -486,7 +486,7 @@ app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', '$rootSco
       { 
         name: "bbyou",
         text: "holla at my drake nation",
-        imgUrl: "https://yt3.ggpht.com/-RiOdvEubuQo/AAAAAAAAAAI/AAAAAAAAAAA/7XZgJOg-LzM/s48-c-k-no/photo.jpg"
+        imgUrl: "https://yt3.ggpht.com/-zi__E7ubqiQ/AAAAAAAAAAI/AAAAAAAAAAA/fHC0DI0hOow/s48-c-k-no/photo.jpg"
       },
       { 
         name: "minama",
