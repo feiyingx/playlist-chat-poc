@@ -233,6 +233,226 @@ app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', '$rootSco
         name: "gooooooooo",
         text: "Get it Drake",
         imgUrl: ""
+      },
+      { 
+        name: "Genesis",
+        text: "take that dance to da club",
+        imgUrl: ""
+      },
+      { 
+        name: "Benitez",
+        text: "i'm in love WITH DIS SONG",
+        imgUrl: ""
+      },
+      { 
+        name: "droidV",
+        text: "STILL DA BEST",
+        imgUrl: ""
+      },
+      { 
+        name: "simba",
+        text: "I can listen to this all night",
+        imgUrl: ""
+      },
+      { 
+        name: "yunG",
+        text: "best mv of 2015",
+        imgUrl: ""
+      },
+      { 
+        name: "nessa",
+        text: "LOL",
+        imgUrl: ""
+      },
+      { 
+        name: "rivera",
+        text: "hahahaha",
+        imgUrl: ""
+      },
+      { 
+        name: "mirtha",
+        text: "I DANCE JUST LIKE HIM",
+        imgUrl: ""
+      },
+      { 
+        name: "Villegas",
+        text: "dancing like a real man",
+        imgUrl: ""
+      },
+      { 
+        name: "carlos",
+        text: "Reminds me of my girlfriend",
+        imgUrl: ""
+      },
+      { 
+        name: "beautybb",
+        text: "someone call me on my cellphone",
+        imgUrl: ""
+      },
+      { 
+        name: "steff",
+        text: "sickkkkk beat",
+        imgUrl: ""
+      },
+      { 
+        name: "bbyou",
+        text: "DRAKE DRAKE DRAKE",
+        imgUrl: ""
+      },
+      { 
+        name: "minama",
+        text: "im your biggest fan",
+        imgUrl: ""
+      },
+      { 
+        name: "kimmy",
+        text: "ME TOO",
+        imgUrl: ""
+      },
+      { 
+        name: "gregleef",
+        text: "go hard or go home drake!",
+        imgUrl: ""
+      },
+      { 
+        name: "catty",
+        text: "keep it up please",
+        imgUrl: ""
+      },
+      { 
+        name: "sunny",
+        text: "I LOVE YOU DRAKE",
+        imgUrl: ""
+      },
+      { 
+        name: "AMERI",
+        text: "this dance is UH MAY ZING",
+        imgUrl: ""
+      },
+      { 
+        name: "cane",
+        text: "lyrics are off the hook",
+        imgUrl: ""
+      },
+      { 
+        name: "candy",
+        text: "i know right",
+        imgUrl: ""
+      },
+      { 
+        name: "lupis",
+        text: "what's up with the dance moves",
+        imgUrl: ""
+      },
+      { 
+        name: "colleen",
+        text: "love this mv",
+        imgUrl: ""
+      },
+      { 
+        name: "meryl",
+        text: "is drake trolling us??",
+        imgUrl: ""
+      },
+      { 
+        name: "xxLOVExx",
+        text: "I can't stop watching this!!!!",
+        imgUrl: ""
+      },
+      { 
+        name: "kisses",
+        text: "me too!",
+        imgUrl: ""
+      },
+      { 
+        name: "oxoxox",
+        text: "me three...",
+        imgUrl: ""
+      },
+      { 
+        name: "popopo",
+        text: "He is so hot",
+        imgUrl: ""
+      },
+      { 
+        name: "tyHIL",
+        text: "60 million views in 2 weeks!!!!",
+        imgUrl: ""
+      },
+      { 
+        name: "asdfa",
+        text: "SENSATIONAL",
+        imgUrl: ""
+      },
+      { 
+        name: "dolfo",
+        text: "call me now",
+        imgUrl: ""
+      },
+      { 
+        name: "miranda",
+        text: "best song",
+        imgUrl: ""
+      },
+      { 
+        name: "yyx",
+        text: "+1",
+        imgUrl: ""
+      },
+      { 
+        name: "shinta",
+        text: "I love this song",
+        imgUrl: ""
+      },
+      { 
+        name: "chaogod",
+        text: "This is too funny LOL",
+        imgUrl: ""
+      },
+      { 
+        name: "powpowpow",
+        text: "best dance of the year",
+        imgUrl: ""
+      },
+      { 
+        name: "ekard",
+        text: "omg drake!",
+        imgUrl: ""
+      },
+      { 
+        name: "goDrake",
+        text: "haters gon hate",
+        imgUrl: ""
+      },
+      { 
+        name: "danceMaster",
+        text: "can someone teach me dis dance",
+        imgUrl: ""
+      },
+      { 
+        name: "lollers",
+        text: "HAHAHAHA",
+        imgUrl: ""
+      },
+      { 
+        name: "mickyD",
+        text: "I'm loving it",
+        imgUrl: ""
+      },
+      { 
+        name: "kacak",
+        text: "*Ba ba ba ba ba",
+        imgUrl: ""
+      },
+      { 
+        name: "gabby",
+        text: "Drake please read my comments, I'm your biggest fan!",
+        imgUrl: ""
+      },
+      { 
+        name: "Kea",
+        text: "Drake MVP",
+        imgUrl: ""
       }
   ];
 
