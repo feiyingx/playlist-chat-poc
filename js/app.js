@@ -209,7 +209,7 @@ app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', '$rootSco
   var commentIndex = 0;
 
   function insertComment(){
-    if(commentIndex < $scope.comments.length){
+    if(commentIndex < $scope.dummyComments.length){
       var c = $scope.dummyComments[commentIndex];
       $scope.comments.push(c);
       commentIndex++;
