@@ -7,7 +7,7 @@ var app = angular.module('myApp', [
   "com.2fdevs.videogular.plugins.poster"
 ]);
 
-app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', function($scope, $timeout, $sce, $interval){
+app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', '$rootScope', function($scope, $timeout, $sce, $interval, $rootScope){
   console.log('home');
 
   $scope.commentText = "";
@@ -15,12 +15,16 @@ app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', function(
   $scope.enterComment = function(){
     if($scope.commentText.trim() != ""){
       $scope.comments.push({
-        name: "audrey",
+        name: "me",
         text: $scope.commentText,
         imgUrl: ""
       });
 
       $scope.commentText = "";
+
+      $timeout(function(){
+        updateScroll();  
+      }, 300);
     }
   }
 
@@ -205,20 +209,39 @@ app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', function(
   var commentIndex = 0;
 
   function insertComment(){
-    var c = $scope.dummyComments[commentIndex];
-    $scope.comments.push(c);
-    commentIndex++;
+    if(commentIndex < $scope.comments.length){
+      var c = $scope.dummyComments[commentIndex];
+      $scope.comments.push(c);
+      commentIndex++;
 
-    $timeout(function(){
-      updateScroll();  
-    }, 300);
-    
+      $timeout(function(){
+        updateScroll();  
+      }, 300);
+    }
   }
   // $timeout(function(){
   //   $scope.comments.push({text: 'hi3'})
   // }, 1000);
 
   $interval(insertComment, 1500);
+
+  
+  var commentIndex2 = 0;
+  function insertComment2(){
+    if(commentIndex2 < arianaComments.length){
+      var c = arianaComments[commentIndex2];
+      $scope.comments.push(c);
+      commentIndex2++;
+
+      $timeout(function(){
+        updateScroll();  
+      }, 300);
+    }
+  }
+
+  $rootScope.$on('video:ended', function(){
+    $interval(insertComment2, 1500);
+  });
 }]);
 
 app.directive('videoPlayer', ['$sce', '$timeout', '$rootScope', function($sce, $timeout, $rootScope){
@@ -261,8 +284,9 @@ app.directive('videoPlayer', ['$sce', '$timeout', '$rootScope', function($sce, $
         var vidIndex = ++$rootScope.videoIndex;
         if(vidIndex < $rootScope.videos.length){
           $timeout(function(){
-            $scope.videoUrl = $sce.trustAsResourceUrl($rootScope.videos[vidIndex].videoUrl);
-            $scope.video = $rootScope.videos[$rootScope.videos[vidIndex]];
+            var vid = $rootScope.videos[vidIndex];
+            $scope.videoUrl = $sce.trustAsResourceUrl(vid.videoUrl);
+            $scope.video = vid;
           })
         }
       });
@@ -275,3 +299,164 @@ function updateScroll(){
     var element = document.getElementById("commentContainer");
     element.scrollTop = element.scrollHeight+10;
 }
+
+var arianaComments = [{ 
+  name: "grandefan",
+  text: "Dang those lips tho",
+  imgUrl: ""
+},
+{ 
+  name: "gruntfile",
+  text: "oooh promotion of the phone",
+  imgUrl: ""
+},
+{ 
+  name: "videogular",
+  text: "Sing it girl",
+  imgUrl: ""
+},
+{ 
+  name: "Bower",
+  text: "I like this song",
+  imgUrl: ""
+},
+{ 
+  name: "Giti",
+  text: "Ariana looks great",
+  imgUrl: ""
+},
+{ 
+  name: "nGnore",
+  text: "WTF is up with her hair",
+  imgUrl: ""
+},
+{ 
+  name: "maxDe",
+  text: "I like the circles",
+  imgUrl: ""
+},
+{ 
+  name: "pckg",
+  text: "I’m definitely focused",
+  imgUrl: ""
+},
+{ 
+  name: "vgPlay",
+  text: "This is what Ariana will look like when she gets old",
+  imgUrl: ""
+},
+{ 
+  name: "haNore",
+  text: "hahahaha",
+  imgUrl: ""
+},
+{ 
+  name: "indexNPM",
+  text: "FLAWLESS",
+  imgUrl: ""
+},
+{ 
+  name: "rewob",
+  text: "She’s such an amazing vocalist",
+  imgUrl: ""
+},
+{ 
+  name: "raceCAR",
+  text: "Ariana don’t let fame change you",
+  imgUrl: ""
+},
+{ 
+  name: "cutieX",
+  text: "I am so obsessed with this song it is stuck in my head",
+  imgUrl: ""
+},
+{ 
+  name: "over_you",
+  text: "I’m digging this space theme",
+  imgUrl: ""
+},
+{ 
+  name: "licenseToKill",
+  text: "Ariana outshines all of her dancers",
+  imgUrl: ""
+},
+{ 
+  name: "angang",
+  text: "Her outfit reminds me of the Flintstones",
+  imgUrl: ""
+},
+{ 
+  name: "the_rock",
+  text: "Ariana can’t dance",
+  imgUrl: ""
+},
+{ 
+  name: "arie",
+  text: "Her VOICE",
+  imgUrl: ""
+},
+{ 
+  name: "myxchell",
+  text: "This is an elaborate Samsung commercial.",
+  imgUrl: ""
+},
+{ 
+  name: "mimixoxo",
+  text: "Ariana She is my favourite singer",
+  imgUrl: ""
+},
+{ 
+  name: "ddoe",
+  text: "Her dance choreo in this video is on point tho",
+  imgUrl: ""
+},
+{ 
+  name: "shellyx",
+  text: "The hair looks amazing on her",
+  imgUrl: ""
+},
+{ 
+  name: "drewness",
+  text: "i'm sorry but when I listen it I always think of Problem",
+  imgUrl: ""
+},
+{ 
+  name: "nodemon",
+  text: "she looks like an elf",
+  imgUrl: ""
+},
+{ 
+  name: "pielicious",
+  text: "This song just explains how much attention she wants..brat",
+  imgUrl: ""
+},
+{ 
+  name: "baller88",
+  text: "Wooooooooooooow Ariana grande",
+  imgUrl: ""
+},
+{ 
+  name: "marioluigi",
+  text: "why won't she change that damn hair style",
+  imgUrl: ""
+},
+{ 
+  name: "Nature",
+  text: "I think shes the only one of her generation with a good voice.",
+  imgUrl: ""
+},
+{ 
+  name: "beautifulSoul",
+  text: "A goddess she is",
+  imgUrl: ""
+},
+{ 
+  name: "pookie",
+  text: "She is SO PRETTY!",
+  imgUrl: ""
+},
+{ 
+  name: "girlsruletheworld",
+  text: "goalss. stuck in my head every day. :D",
+  imgUrl: ""
+}];
