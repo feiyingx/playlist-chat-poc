@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+  <meta charset=utf-8>
+  <title>Simple Express Static Server</title>
+  <style>
+    [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+      display: none !important;
+    }
+
+    .video {
+      max-width: 400px;
+    }
+
+    .comment{
+
+    }
+
+    .comment .name {
+      font-weight: bold;
+    }
+
+    .comment img {
+      height: 30px;
+      width: 30px;
+      border-radius: 15px;
+      background-color: #ccc;
+    }
+
+    ul li {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    ul{
+      margin: 0;
+      padding: 0;
+      height: 200px;
+      overflow: scroll;
+    }
+  </style>
+</head>
+<body ng-cloak>
+  <div ng-controller="HomeCtrl as controller">
+    <div class="video">
+      <video-player videos="{{videos}}"></video-player>
+    </div>
+   
+    <ul id="commentContainer">
+      <li ng-repeat="comment in comments" class="comment">
+        <img/><span class="name">{{comment.name}}</span>: {{comment.text}}
+      </li>
+    </ul>
+  </div>
+
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+  <script src="bower_components/videogular/videogular.js"></script>
+  <script src="bower_components/videogular-controls/vg-controls.js"></script>
+  <script src="bower_components/videogular-overlay-play/vg-overlay-play.js"></script>
+  <script src="bower_components/videogular-poster/vg-poster.js"></script>
+  <script src="bower_components/videogular-buffering/vg-buffering.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
