@@ -3,7 +3,12 @@
 <head>
   <meta charset=utf-8>
   <title>Simple Express Static Server</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.css" />
   <style>
+    body{
+      background-color: #111;
+    }
+
     [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
       display: none !important;
     }
@@ -25,34 +30,74 @@
       width: 30px;
       border-radius: 15px;
       background-color: #ccc;
+      display: inline-block;
+      position: absolute;
+      top: 7px;
+    }
+
+    .comment p {
+      display: inline-block;
+      position: relative;
+      padding-left: 42px;
+      margin: 10px 0 10px 0;
     }
 
     ul li {
       list-style-type: none;
       margin: 0;
       padding: 0;
+      position: relative;
     }
 
     ul{
       margin: 0;
-      padding: 0;
+      padding: 0 15px 0 15px;
       height: 200px;
       overflow: scroll;
+    }
+
+    .celeb-icon {
+      color: #00E676;
+    }
+
+    form {
+      width: 100%;
+    }
+
+    #container{
+      width: 400px;
+      margin: 0 auto;
+      
+      background-color: #fff;
+      position: relative;
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+
+    h1 {
+      padding: 5px 15px 5px 15px;
+      font-size: 18px;
+      margin: 0;
+      border-bottom: 1px solid #ccc;
     }
   </style>
 </head>
 <body ng-cloak>
-  <div ng-controller="HomeCtrl as controller">
+  <div ng-controller="HomeCtrl as controller" id="container">
     <div class="video">
       <video-player videos="{{videos}}"></video-player>
     </div>
    
     <ul id="commentContainer">
       <li ng-repeat="comment in comments track by $index" class="comment">
-        <img/><span class="name">{{comment.name}}</span>: {{comment.text}}
+        <img ng-src="{{comment.imgUrl}}"/>
+        <p>
+          <span class="name">{{comment.name}}</span><i class="check circle icon celeb-icon" ng-if="comment.name == 'ARIANA'"></i>:
+          {{comment.text}}
+        </p>
       </li>
     </ul>
-    <form ng-submit="enterComment()">
+    <form ng-submit="enterComment()" class="ui input">
       <input type="text" placeholder="Enter comment..." ng-model="commentText"/>
     </form>
   </div>

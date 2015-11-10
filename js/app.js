@@ -29,6 +29,11 @@ app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', '$rootSco
   }
 
   $scope.dummyComments = [
+      {
+        name: "ARIANA",
+        text: "Another one of my favorite videos is this track from Drake - can't stop listening :)",
+        imgUrl: "https://yt3.ggpht.com/-u_W-R7bGk1c/AAAAAAAAAAI/AAAAAAAAAAA/u6lamzb3BPc/s88-c-k-no/photo.jpg"
+      },
       { 
         name: "jeamanda",
         text: "Um yes water",
@@ -37,6 +42,16 @@ app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', '$rootSco
      ,{ 
         name: "Deplex101",
         text: "That girl!",
+        imgUrl: ""
+      },
+      { 
+        name: "Deplex101",
+        text: "Smooookingggggggggg",
+        imgUrl: ""
+      },
+      { 
+        name: "derke",
+        text: "my kind of customer service department",
         imgUrl: ""
       }
      ,{ 
@@ -68,7 +83,12 @@ app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', '$rootSco
         name: "ronnieMc",
         text: "Drake be dancing",
         imgUrl: ""
-      }
+      },
+      {
+        name: "ARIANA",
+        text: "Can we all please dance like Drake right now",
+        imgUrl: "https://yt3.ggpht.com/-u_W-R7bGk1c/AAAAAAAAAAI/AAAAAAAAAAA/u6lamzb3BPc/s88-c-k-no/photo.jpg"
+      },
      ,{ 
         name: "HooDini",
         text: "What is he doing",
@@ -143,6 +163,11 @@ app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', '$rootSco
         name: "phile",
         text: "his dancing and this whole video is pissing me off and i dont even know why",
         imgUrl: ""
+      },
+      {
+        name: "ARIANA",
+        text: "I listen to this track almost every day",
+        imgUrl: "https://yt3.ggpht.com/-u_W-R7bGk1c/AAAAAAAAAAI/AAAAAAAAAAA/u6lamzb3BPc/s88-c-k-no/photo.jpg"
       }
      ,{ 
         name: "blingBLING",
@@ -178,6 +203,11 @@ app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', '$rootSco
         name: "RazaK",
         text: "he's dancing bachata lol",
         imgUrl: ""
+      },
+      {
+        name: "ARIANA",
+        text: "Get it Drake",
+        imgUrl: "https://yt3.ggpht.com/-u_W-R7bGk1c/AAAAAAAAAAI/AAAAAAAAAAA/u6lamzb3BPc/s88-c-k-no/photo.jpg"
       }
      ,{ 
         name: "rebJulia",
@@ -223,9 +253,9 @@ app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', '$rootSco
   //   $scope.comments.push({text: 'hi3'})
   // }, 1000);
 
-  $interval(insertComment, 1500);
+  $interval(insertComment2, 2500 + Math.floor(Math.random()*1000));
 
-  
+
   var commentIndex2 = 0;
   function insertComment2(){
     if(commentIndex2 < arianaComments.length){
@@ -240,7 +270,7 @@ app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', '$rootSco
   }
 
   $rootScope.$on('video:ended', function(){
-    $interval(insertComment2, 1500);
+    $interval(insertComment, 3000);
   });
 }]);
 
@@ -254,16 +284,16 @@ app.directive('videoPlayer', ['$sce', '$timeout', '$rootScope', function($sce, $
     link: function($scope, $element, $attr, $ctrl){
       $rootScope.videos = [
         {
-          title: "Hotline Bling",
-          artist: "Drake",
-          imgUrl: "https://yt3.ggpht.com/-lTFlcA9Q0nQ/AAAAAAAAAAI/AAAAAAAAAAA/E2qB72L4zmY/s88-c-k-no/photo.jpg",
-          videoUrl: "http://h264-aws.vevo.com/v3/h264/2015/10/USCMV1500030/3521a00a-c3ed-4ebf-adc0-9f271a368d9a/uscmv1500030_med_480x360_h264_500_aac_128.mp4"
-        },
-        {
           title: "Ariana Grande",
           artist: "Focus",
           imgUrl: "https://yt3.ggpht.com/-u_W-R7bGk1c/AAAAAAAAAAI/AAAAAAAAAAA/u6lamzb3BPc/s88-c-k-no/photo.jpg",
           videoUrl: "http://h264-aws.vevo.com/v3/h264/2015/10/USUV71503192/4a35e8aa-8595-40f9-8447-a823ee6c2578/usuv71503192_med_480x360_h264_500_aac_128.mp4"
+        },
+        {
+          title: "Hotline Bling",
+          artist: "Drake",
+          imgUrl: "https://yt3.ggpht.com/-lTFlcA9Q0nQ/AAAAAAAAAAI/AAAAAAAAAAA/E2qB72L4zmY/s88-c-k-no/photo.jpg",
+          videoUrl: "http://h264-aws.vevo.com/v3/h264/2015/10/USCMV1500030/3521a00a-c3ed-4ebf-adc0-9f271a368d9a/uscmv1500030_med_480x360_h264_500_aac_128.mp4"
         }
       ];
       $rootScope.videoIndex = 0
@@ -300,7 +330,13 @@ function updateScroll(){
     element.scrollTop = element.scrollHeight+10;
 }
 
-var arianaComments = [{ 
+var arianaComments = [
+{
+  name: "ARIANA",
+  text: "Hey guys, this is Ariana - so happy to be watching my video with you guys!",
+  imgUrl: "https://yt3.ggpht.com/-u_W-R7bGk1c/AAAAAAAAAAI/AAAAAAAAAAA/u6lamzb3BPc/s88-c-k-no/photo.jpg"
+},
+{ 
   name: "grandefan",
   text: "Dang those lips tho",
   imgUrl: ""
@@ -360,6 +396,11 @@ var arianaComments = [{
   text: "She’s such an amazing vocalist",
   imgUrl: ""
 },
+{
+  name: "ARIANA",
+  text: "Thanks guys! I really loved shooting this video",
+  imgUrl: "https://yt3.ggpht.com/-u_W-R7bGk1c/AAAAAAAAAAI/AAAAAAAAAAA/u6lamzb3BPc/s88-c-k-no/photo.jpg"
+},
 { 
   name: "raceCAR",
   text: "Ariana don’t let fame change you",
@@ -394,6 +435,11 @@ var arianaComments = [{
   name: "arie",
   text: "Her VOICE",
   imgUrl: ""
+},
+{
+  name: "ARIANA",
+  text: "This is one of my favorite songs from my new album",
+  imgUrl: "https://yt3.ggpht.com/-u_W-R7bGk1c/AAAAAAAAAAI/AAAAAAAAAAA/u6lamzb3BPc/s88-c-k-no/photo.jpg"
 },
 { 
   name: "myxchell",
@@ -435,6 +481,11 @@ var arianaComments = [{
   text: "Wooooooooooooow Ariana grande",
   imgUrl: ""
 },
+{
+  name: "ARIANA",
+  text: "Fun fact: this video was actually shot in space. JK",
+  imgUrl: "https://yt3.ggpht.com/-u_W-R7bGk1c/AAAAAAAAAAI/AAAAAAAAAAA/u6lamzb3BPc/s88-c-k-no/photo.jpg"
+},
 { 
   name: "marioluigi",
   text: "why won't she change that damn hair style",
@@ -458,5 +509,90 @@ var arianaComments = [{
 { 
   name: "girlsruletheworld",
   text: "goalss. stuck in my head every day. :D",
+  imgUrl: ""
+},
+{ 
+  name: "Xaxa",
+  text: "ariana can be my PROBLEM any day",
+  imgUrl: ""
+},
+{ 
+  name: "lvxxz",
+  text: "what phone is that?",
+  imgUrl: ""
+},
+{ 
+  name: "emili",
+  text: "DAT DRESS",
+  imgUrl: ""
+},
+{ 
+  name: "zoeD",
+  text: "you go girl!",
+  imgUrl: ""
+},
+{ 
+  name: "sander_L",
+  text: "she's all grown up",
+  imgUrl: ""
+},
+{ 
+  name: "devon",
+  text: "i love you!!",
+  imgUrl: ""
+},
+{ 
+  name: "cyrilnu",
+  text: "moreeeeeeeee ariana",
+  imgUrl: ""
+},
+{ 
+  name: "karyn",
+  text: "totally FOCUSING",
+  imgUrl: ""
+},
+{ 
+  name: "kawa",
+  text: "i can see stars in her eyes",
+  imgUrl: ""
+},
+{ 
+  name: "SQILHE",
+  text: "i cant get this song out of my head",
+  imgUrl: ""
+},
+{ 
+  name: "monique",
+  text: "my dream is to be like her",
+  imgUrl: ""
+},
+{ 
+  name: "monique",
+  text: "shes my inspiration",
+  imgUrl: ""
+},
+{ 
+  name: "nikki",
+  text: "she looks like shes from game of thrones!",
+  imgUrl: ""
+},
+{ 
+  name: "pollo",
+  text: "such an AMAZING voice",
+  imgUrl: ""
+},
+{ 
+  name: "CUE",
+  text: "YES YES YES!",
+  imgUrl: ""
+},
+{ 
+  name: "michelleK",
+  text: "I AM YOUR SUPERFAN",
+  imgUrl: ""
+},
+{ 
+  name: "alex",
+  text: "cool video bro",
   imgUrl: ""
 }];
