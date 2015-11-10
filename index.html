@@ -48,10 +48,13 @@
     </div>
    
     <ul id="commentContainer">
-      <li ng-repeat="comment in comments" class="comment">
+      <li ng-repeat="comment in comments track by $index" class="comment">
         <img/><span class="name">{{comment.name}}</span>: {{comment.text}}
       </li>
     </ul>
+    <form ng-submit="enterComment()">
+      <input type="text" placeholder="Enter comment..." ng-model="commentText"/>
+    </form>
   </div>
 
   <script src="bower_components/angular/angular.js"></script>

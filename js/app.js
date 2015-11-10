@@ -10,7 +10,19 @@ var app = angular.module('myApp', [
 app.controller('HomeCtrl', ['$scope', '$timeout', '$sce', '$interval', function($scope, $timeout, $sce, $interval){
   console.log('home');
 
+  $scope.commentText = "";
   $scope.comments = []
+  $scope.enterComment = function(){
+    if($scope.commentText.trim() != ""){
+      $scope.comments.push({
+        name: "audrey",
+        text: $scope.commentText,
+        imgUrl: ""
+      });
+
+      $scope.commentText = "";
+    }
+  }
 
   $scope.dummyComments = [
       { 
